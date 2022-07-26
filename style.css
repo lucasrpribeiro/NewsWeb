@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+body .body-part1 {
+    position: absolute;
+    background-color: #121214;
+    width: 50vw;
+    height: 100vh;
+}
+
+.body-part2 img {
+    display: flex;
+    margin-left: auto;
+    width: 73.4rem;
+    height: 100vh;
+}
+    
+
+/*==HEADER==*/
+.header #logo {
+    width: 24.3rem;
+    height: 5.8rem;
+    padding-left: 2.3rem;
+    padding-top: 3.1rem;
+}
+/*===MAINS=====*/
+.main .principal .part1 {
+    display: flex;
+    width: 35.3rem;
+    height: 1.9rem;
+    color: #04D361;
+    padding-left: 2.3rem;
+    padding-top: 1.8rem;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+}
+
+.main .principal .part2 .strong {
+    display: flex;
+    width: 32.3rem;
+    height: 1rem;
+    color: #E1E1E6;
+    padding-left: 2.3rem;
+    margin: 0.5rem 0;
+
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1rem;
+}    
+
+.main .principal .part3 {
+    width: 40.4rem;
+    height: 2.3rem;
+    color: #E1E1E6;
+    padding-left: 2.3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    line-height: 1.1;
+
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.6;
+}    
+
+.main .formulario .box-form {
+    width: 49.8rem;
+    height: 5.2rem;
+    padding-left: 2.3rem;
+}
+
+.main .span span {
+    display: flex;
+    color: #8257e5;
+    width: 12.2rem;
+    height: 1.5rem;
+    padding-left: 2.3rem;
+    margin-top: 2.5rem;
+
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 138.73%;   
+}
+
+/*====FORMULÁRIO EDIT====*/
+
+.main .formulario {
+    display: flex;
+    border: none;
+}
+    
+
+.main .formulario .box-form .edit-form .etiqueta {
+    display: flex;
+    color: #E1E1E6;
+
+    font-family: 'League Spartan';
+    gap: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 138.73%;
+}
+
+.main .formulario .box-form .edit-form .box-input {
+    display: flex;
+    width: 42rem;
+    height: 2.0rem;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: 4px solid #04D361;
+    padding-left: 0.8rem;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px
+}
+
+.main .formulario .box-form .edit-form .button {
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    background: #8257e5;
+    width: 2.5rem;
+    height: 2rem;
+}
+
+.main .formulario .box-form .edit-form .row {
+    display: flex;
+}
